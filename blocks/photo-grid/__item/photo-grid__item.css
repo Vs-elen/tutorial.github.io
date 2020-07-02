@@ -1,0 +1,38 @@
+.photo-grid__item {
+    width: 100%;
+    min-height: 188px;
+}
+
+@media screen and (max-width: 1270px) {
+    .photo-grid__item {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .photo-grid__item {
+        width: 100%;
+        height: 234px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .photo-grid__item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .photo-grid__item {
+        width: 100%;
+height: 232px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .photo-grid__item {
+        width: 100%;
+        height: 192px;
+    }
+}

@@ -1,0 +1,15 @@
+.intro__list-item {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 720px) {
+    .intro__list-item {
+        font-size: 12px;
+line-height: 19px;
+    }
+}

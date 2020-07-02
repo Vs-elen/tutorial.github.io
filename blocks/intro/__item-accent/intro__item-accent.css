@@ -1,0 +1,15 @@
+.intro__item-accent {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 720px) {
+    .intro__item-accent {
+        font-size: 12px;
+line-height: 19px;
+    }
+}

@@ -1,0 +1,10 @@
+.comments {
+    margin: auto;
+    margin-top: 110px;
+}
+
+@media screen and (max-width: 650px) {
+    .comments  {
+        margin-top: 60px;
+    }
+}

@@ -1,0 +1,29 @@
+.footer__navigation {
+    width: 664px;
+    margin-bottom: 48px;
+}
+
+@media screen and (max-width: 954px) {
+    .footer__navigation  {
+        max-width: 550px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer__navigation  {
+        margin-bottom: 24px;
+        max-width: 466px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .footer__navigation  {
+        margin-bottom: 40px;        
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__navigation  {
+        margin-bottom: 24px;        
+    }
+}

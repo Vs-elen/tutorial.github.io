@@ -1,0 +1,101 @@
+@import "../page/page.css";
+@import "../blocks/header/header.css";
+@import "../blocks/header/__logo/header__logo.css"; 
+@import "../blocks/header/__lang/header__lang.css";
+@import "../blocks/header/__lang/_type/_active/header__lang_type_active.css";
+@import "../blocks/lead/lead.css";
+@import "../blocks/lead/__title/lead__title.css";
+@import "../blocks/lead/__subtitle/lead__subtitle.css";
+@import "../blocks/lead/__container/lead__container.css";
+@import "../blocks/lead/__image/lead__image.css";
+@import "../blocks/lead/__caption/lead__caption.css";
+@import "../blocks/intro/intro.css";
+@import "../blocks/intro/__title/intro__title.css";
+@import "../blocks/intro/__subtitle/intro__subtitle.css";
+@import "../blocks/intro/__content-row/intro__content-row.css";
+@import "../blocks/intro/__text-main/intro__text-main.css";
+@import "../blocks/intro/__list/intro__list.css";
+@import "../blocks/intro/__list-item/intro__list-item.css";
+@import "../blocks/intro/__item-accent/intro__item-accent.css";
+@import "../blocks/photo-grid/photo-grid.css";
+@import "../blocks/photo-grid/__item/photo-grid__item.css";
+@import "../blocks/places/places.css";
+@import "../blocks/place/place.css";
+@import "../blocks/place/__title/place__title.css";
+@import "../blocks/place/__website/place__website.css";
+@import "../blocks/place/__website-URL/place__website-URL.css";
+@import "../blocks/place/__website-link/place__website-link.css";
+@import "../blocks/place/__image/place__image.css";
+@import "../blocks/place/__paragraph/place__paragraph.css";
+@import "../blocks/place/__paragraph-text/place__paragraph-text.css";
+@import "../blocks/video/video.css";
+@import "../blocks/video/__content-title/video__content-title.css";
+@import "../blocks/video/__content-subtitle/video__content-subtitle.css";
+@import "../blocks/video/__container/video__container.css";
+@import "../blocks/video/__item/video__item.css";
+@import "../blocks/video/__item/_theme/video__item_theme_Kamchatka.css";
+@import "../blocks/video/__item-play/video__item-play.css";
+@import "../blocks/video/__item-description/video__item-description.css";
+@import "../blocks/video/__item-duration/video__item-duration.css";
+@import "../blocks/video/__item-title/video__item-title.css";
+@import "../blocks/video/__item-subtitle/video__item-subtitle.css";
+@import "../blocks/video/__item/_theme/video__item_theme_observatory.css";
+@import "../blocks/content-title/content-title.css";
+@import "../blocks/content-subtitle/content-subtitle.css";
+@import "../blocks/comments/comments.css";
+@import "../blocks/comments/__container/comments__container.css";
+@import "../blocks/comments/__container-comment/comments__container-comment.css";
+@import "../blocks/comments/__container-image/comments__container-image.css";
+@import "../blocks/comments/__container-quote/comments__container-quote.css";
+@import "../blocks/comments/__container-author/comments__container-author.css";
+@import "../blocks/cover/cover.css";
+@import "../blocks/cover/__link/cover__link.css";
+@import "../blocks/cover/__title/cover__title.css";
+@import "../blocks/cover/__subtitle/cover__subtitle.css";
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__navigation/footer__navigation.css";
+@import "../blocks/footer/__navigation-links/footer__navigation-links.css";
+@import "../blocks/footer/__navigation-link/footer__navigation-link.css";
+@import "../blocks/footer/__copyright/footer__copyright.css";
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/Inter-Regular.woff2") format("woff2"),
+        url("../fonts/Inter-Regular.woff") format("woff");
+} 
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../fonts/Inter-Bold.woff2") format("woff2"),
+        url("../fonts/Inter-Bold.woff") format("woff"); 
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("../fonts/Inter-Medium.woff2") format("woff2"),
+         url("../fonts/Inter-Medium.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("../fonts/Inter-Black.woff2") format("woff2"),
+         url("../fonts/Inter-Black.woff") format("woff");
+  }
+
+body {
+    background: #2A2C2F;
+}
+
+

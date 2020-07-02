@@ -1,0 +1,15 @@
+.video__item-play {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 41px;
+    height: 41px;
+    z-index: 1; 
+}
+
+@media screen and (max-width: 1020px) {
+    .video__item-play  {
+        margin-top: 25px;
+    margin-left: 25px;     
+    }
+}

@@ -1,0 +1,33 @@
+.video__container {
+    margin: auto;
+    margin-top: 64px;
+    padding: 0;
+    max-width: 1184px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1280px) {
+    .video__container {
+    max-width: 1184px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .video__container {
+    max-width: 720px;
+    margin-top: 44px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .video__container {
+        max-width: 720px;
+        align-items: center;
+        margin-top: 24px;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+       }
+}

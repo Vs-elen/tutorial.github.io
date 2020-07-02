@@ -1,0 +1,38 @@
+.footer__navigation-link {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+    color: #FFFFFF;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.footer__navigation-link:hover {
+    transition: opacity 1s linear 0.5s;
+    opacity: .7;
+}
+
+@media screen and (max-width: 954px) {
+    .footer__navigation-link {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer__navigation-link {
+        font-size: 16px;
+line-height: 27px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .footer__navigation-link {
+        font-size: 24px;
+line-height: 51px;
+    }
+}
+
+
+

@@ -1,0 +1,39 @@
+.comments__container-comment {
+    max-width: 382px;
+}
+
+@media screen and (max-width: 1280px) {
+    .comments__container-comment {
+    max-width: 382px;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .comments__container-comment {
+    max-width: 296px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .comments__container-comment {
+    max-width: 382px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 52px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .comments__container-comment {
+    max-width: 382px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 52px;
+    }
+}
+
+
